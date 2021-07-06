@@ -139,3 +139,23 @@ section{
 
 /*.............................Statistics Section.......................*/
 
+#statisticsSection .allStatistics{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 0px solid #d4d4d4;
+    border-radius: 20px;
+    box-shadow: -4px -4px 20px rgba(0, 0, 0, 0.1);
+}
+#statisticsSection .allStatistics .subscriberCount{
+    padding: 2% 5%;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid red;
+    
+}
+.subscriberCount h1{
+    font-size: 50px;
+    line-height: 4px;
+}
