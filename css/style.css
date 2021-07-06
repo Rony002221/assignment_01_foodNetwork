@@ -89,3 +89,53 @@ section{
     line-height: 25px;
     margin-bottom: 60px;
 }
+
+/*................Recipie Section ........................*/
+#recipieSection .recipieContent{
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.recipieContent h1{
+    font-size: 30px;
+    font-family: 'Roboto';
+    margin-bottom: 25px;
+}
+
+#recipieCardSection{
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#recipieCardSection .recipieCard{
+    width: 25%;
+    margin: 2px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 0px solid #d4d4d4;
+    border-radius: 20px;
+    box-shadow: -4px -4px 20px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    
+}
+
+#recipieCardSection .recipieCard img{
+    width: 100%;   
+}
+
+#recipieCardSection .recipieCard p{
+    line-height: 25px;
+    font-family: "Roboto"; 
+}
+#recipieCardSection .recipieCard h2{
+    
+    font-family: "Roboto"; 
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
+/*.............................Statistics Section.......................*/
+
